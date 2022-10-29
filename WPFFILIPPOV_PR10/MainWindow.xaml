@@ -7,13 +7,32 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox Margin="10,10,0,13" Name="listbox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Height="200">
-            <ListBoxItem Content="Coffie"></ListBoxItem>
-            <ListBoxItem Content="Tea"></ListBoxItem>
-            <ListBoxItem Content="Orange Juice"></ListBoxItem>
-            <ListBoxItem Content="Milk"></ListBoxItem>
-            <ListBoxItem Content="Iced Tea"></ListBoxItem>
-            <ListBoxItem Content="Mango Shake"></ListBoxItem>
+        <Button Content="Sort" x:Name="Sort" Margin='350,14,366,363' Click="Sort_Click"/>
+        <Button Height="23" Margin="220,48,462,0" Name="DeleteButton" VerticalAlignment="Top" Click="DeleteButton_Click">Delete Item</Button>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="8 14 0 0" x:Name="textBox1"  VerticalAlignment="Top" Width="193"/>
+        <Button Height="23" Margin="220,14,0,0" Name="button1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="118" Click="button1_Click">add Item</Button>
+        <ListBox Margin="9,48,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Height="200">
+            <ListBoxItem  Background="LightCoral" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="P:\Общая\402\_ИСРПО\Отчёты\Новая папка\Aromatnyj-napitok-1.jpg" Height="30"></Image>
+                    <TextBlock Text="Coffie"></TextBlock>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem Background="Gray" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="P:\Общая\402\_ИСРПО\Отчёты\Новая папка\post_5cc16e65ddc17.jpg" Height="30"></Image>
+                    <TextBlock Text="Tea"></TextBlock>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem Background="LightBlue" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="P:\Общая\402\_ИСРПО\Отчёты\Новая папка\В РОЗЫСКЕ! НАГРАДА ЗА ПОИМКУ - БАНАН.PNG" Height="30"></Image>
+                    <TextBlock Text="Orange Juice"></TextBlock>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem Content="Milk" Background="Green"></ListBoxItem>
+            <ListBoxItem Content="Iced Tea" Background="LightBlue"></ListBoxItem>
+            <ListBoxItem Content="Mango Shake" Background="DarkGray"></ListBoxItem>
         </ListBox>
     </Grid>
 </Window>
