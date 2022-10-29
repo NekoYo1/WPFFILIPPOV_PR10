@@ -13,40 +13,52 @@
         <Button Height="23" Margin="220,14,0,0" Name="button1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="118" Click="button1_Click">add Item</Button>
         <ListBox Margin="9,48,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Height="200">
             <ListBoxItem  Background="LightCoral" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
-                <StackPanel Orientation="Horizontal">
+                <CheckBox Name="CoffieCheckBox">
+                    <StackPanel Orientation="Horizontal">
                     <Image Source="P:\Общая\402\_ИСРПО\Отчёты\Новая папка\Aromatnyj-napitok-1.jpg" Height="30"></Image>
                     <TextBlock Text="Coffie"></TextBlock>
                 </StackPanel>
+                </CheckBox>
             </ListBoxItem>
             <ListBoxItem Background="Gray" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
-                <StackPanel Orientation="Horizontal">
+                <CheckBox Name="TeaCheckBox">
+                    <StackPanel Orientation="Horizontal">
                     <Image Source="P:\Общая\402\_ИСРПО\Отчёты\Новая папка\post_5cc16e65ddc17.jpg" Height="30"></Image>
                     <TextBlock Text="Tea"></TextBlock>
                 </StackPanel>
+                </CheckBox>
             </ListBoxItem>
             <ListBoxItem Background="LightBlue" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
-                <StackPanel Orientation="Horizontal">
+                <CheckBox Name="OrangeJuiceCheckBox">
+                    <StackPanel Orientation="Horizontal">
                     <Image Source="P:\Общая\402\_ИСРПО\Отчёты\Новая папка\В РОЗЫСКЕ! НАГРАДА ЗА ПОИМКУ - БАНАН.PNG" Height="30"></Image>
                     <TextBlock Text="Orange Juice"></TextBlock>
                 </StackPanel>
+                </CheckBox>
             </ListBoxItem>
             <ListBoxItem  Background="Green" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
-                <StackPanel Orientation="Horizontal">
+                <CheckBox Name="MilkCheckBox">
+                    <StackPanel Orientation="Horizontal">
                     <Image Source="P:\Общая\402\_ИСРПО\Отчёты\Новая папка\В РОЗЫСКЕ! НАГРАДА ЗА ПОИМКУ - БАНАН.PNG" Height="30"></Image>
                     <TextBlock Text="Milk"></TextBlock>
                 </StackPanel>
+                </CheckBox>
             </ListBoxItem>
             <ListBoxItem Background="LightBlue" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
-                <StackPanel Orientation="Horizontal">
+                <CheckBox Name="IcedTeaCheckBox">
+                    <StackPanel Orientation="Horizontal">
                     <Image Source="P:\Общая\402\_ИСРПО\Отчёты\Новая папка\В РОЗЫСКЕ! НАГРАДА ЗА ПОИМКУ - БАНАН.PNG" Height="30"></Image>
                     <TextBlock Text="Iced Tea"></TextBlock>
                 </StackPanel>
+                </CheckBox>
             </ListBoxItem>
             <ListBoxItem Background="DarkGray" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
-                <StackPanel Orientation="Horizontal">
+                <CheckBox Name="MangoShakeCheckBox">
+                    <StackPanel Orientation="Horizontal">
                     <Image Source="P:\Общая\402\_ИСРПО\Отчёты\Новая папка\В РОЗЫСКЕ! НАГРАДА ЗА ПОИМКУ - БАНАН.PNG" Height="30"></Image>
                     <TextBlock Text="Mango Shake"></TextBlock>
                 </StackPanel>
+                </CheckBox>
             </ListBoxItem>
         </ListBox>
     </Grid>
