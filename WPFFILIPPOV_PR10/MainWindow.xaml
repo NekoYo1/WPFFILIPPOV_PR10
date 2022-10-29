@@ -61,5 +61,6 @@
                 </CheckBox>
             </ListBoxItem>
         </ListBox>
+        <Button Margin="450,279,123,123" Content="Задание 2" Click="Button_Click"></Button>
     </Grid>
 </Window>
