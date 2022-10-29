@@ -30,9 +30,24 @@
                     <TextBlock Text="Orange Juice"></TextBlock>
                 </StackPanel>
             </ListBoxItem>
-            <ListBoxItem Content="Milk" Background="Green"></ListBoxItem>
-            <ListBoxItem Content="Iced Tea" Background="LightBlue"></ListBoxItem>
-            <ListBoxItem Content="Mango Shake" Background="DarkGray"></ListBoxItem>
+            <ListBoxItem  Background="Green" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="P:\Общая\402\_ИСРПО\Отчёты\Новая папка\В РОЗЫСКЕ! НАГРАДА ЗА ПОИМКУ - БАНАН.PNG" Height="30"></Image>
+                    <TextBlock Text="Milk"></TextBlock>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem Background="LightBlue" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="P:\Общая\402\_ИСРПО\Отчёты\Новая папка\В РОЗЫСКЕ! НАГРАДА ЗА ПОИМКУ - БАНАН.PNG" Height="30"></Image>
+                    <TextBlock Text="Iced Tea"></TextBlock>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem Background="DarkGray" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="P:\Общая\402\_ИСРПО\Отчёты\Новая папка\В РОЗЫСКЕ! НАГРАДА ЗА ПОИМКУ - БАНАН.PNG" Height="30"></Image>
+                    <TextBlock Text="Mango Shake"></TextBlock>
+                </StackPanel>
+            </ListBoxItem>
         </ListBox>
     </Grid>
 </Window>
